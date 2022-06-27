@@ -29,7 +29,7 @@ def add_edge_weight(node, new_node, value):
             edge_weight = int(input(f"Enter edge weight between {node.name} and {new_node.name}: "))
             node.edges_weight.update({new_node.name: edge_weight})
     else:
-        print(f"There is not edge connecting {node.name} and {new_node.name}")
+        print(f"There is no edge connecting {node.name} and {new_node.name}")
 
 
 """
